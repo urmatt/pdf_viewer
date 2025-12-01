@@ -1,5 +1,5 @@
 group 'dev.kaichi.easy_pdf_viewer'
-version '1.0.7'
+version '1.0.8'
 
 buildscript {
     repositories {
@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     namespace "dev.kaichi.easy_pdf_viewer"
-    compileSdkVersion 34
+    compileSdkVersion 36
 
     defaultConfig {
         minSdkVersion 16
